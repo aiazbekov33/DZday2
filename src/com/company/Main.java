@@ -6,6 +6,8 @@ public class Main {
 //    public static int temp = 20;
 
     public static void main(String[] args) {
+
+
  //       printText();
         // Задача №1
 //        weather();
@@ -81,6 +83,10 @@ public class Main {
 //        System.out.println("March");
 //        System.out.println("Maggie");
 
+//        String d1 = (" Бактыяр ");
+//        int d2 = (29);
+//        String e1 = (d1 + d2);
+//        System.out.println(e1);
 //
 //    }
     }
