@@ -6,8 +6,8 @@ public class Main {
 //    public static int temp = 20;
 
     public static void main(String[] args) {
-
-
+        String myinfo = remove("Бактыяр ", 29 );
+        System.out.println(myinfo);
  //       printText();
         // Задача №1
 //        weather();
@@ -33,8 +33,7 @@ public class Main {
 //                }
 //            }
 
-
-                                                       //Задача №1/2
+        //Задача №1/2
 
 //        Scanner in = new Scanner(System.in);
 //        System.out.print("Введите имя: ");
@@ -59,20 +58,20 @@ public class Main {
 //        System.out.print("Возраст: " + age);
 
           //Зачада №2 switch in String
-                String Word = "first";
+//                String Word = "first";
 
-        switch (Word){
-            case "first":
-                System.out.println("Gold medal");
-                break;
-            case "Second":
-                System.out.println("Silver medal");
-                break;
-            case "Third":
-                System.out.println("Bronze medal");
-                break;
-            default:
-                System.out.println("error");}
+//        switch (Word){
+//            case "first":
+//                System.out.println("Gold medal");
+//                break;
+//            case "Second":
+//                System.out.println("Silver medal");
+//                break;
+//            case "Third":
+//                System.out.println("Bronze medal");
+//                break;
+//            default:
+//                System.out.println("error");}
 
 
 //    }
@@ -83,6 +82,7 @@ public class Main {
 //        System.out.println("March");
 //        System.out.println("Maggie");
 
+//
 //        String d1 = (" Бактыяр ");
 //        int d2 = (29);
 //        String e1 = (d1 + d2);
@@ -90,4 +90,11 @@ public class Main {
 //
 //    }
     }
+
+    //Доп дз
+    public static String remove(String name, int age){
+        final String result = ("Меня зовут : " + name + " " + "Мне:" + age);
+        return result;
+    }
+
 }
